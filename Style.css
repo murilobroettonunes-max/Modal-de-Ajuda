@@ -1,0 +1,33 @@
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-conteudo {
+  background: white;
+  width: 90%;
+  max-width: 400px;
+  padding: 25px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.fechar {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.modal-conteudo button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  cursor: pointer;
+}
